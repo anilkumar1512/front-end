@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eventora - Book tickets for movies, concerts and live sports events online.">
+    <title>Eventora | Event Ticket Booking System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home">Eventora</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============ INTRODUCTION / HERO ============ -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Book Your Next Big Experience</h1>
+                <p>
+                    Eventora is a modern ticket booking platform for movies, concerts and
+                    live sports events. Discover what&rsquo;s happening around you and reserve
+                    your seats in seconds.
+                </p>
+            </div>
+        </section>
+
+        <!-- ============ EVENT LISTING ============ -->
+        <section id="events" class="section">
+            <div class="container">
+                <h2 class="section-title">Upcoming Events</h2>
+
+                <div class="event-grid">
+
+                    <!-- 1. Movie -->
+                    <article class="event-card">
+                        <div class="event-media">
+                            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80"
+                                 alt="Cinema hall screening a movie" loading="lazy">
+                            <span class="badge badge-movie">Movie</span>
+                        </div>
+                        <div class="event-body">
+                            <h3 class="event-name">Interstellar: IMAX Re-Release</h3>
+                            <p class="event-meta"><span class="label">Date:</span> 12 Nov 2026</p>
+                            <p class="event-meta"><span class="label">Location:</span> PVR Orion Mall, Bengaluru</p>
+                            <p class="event-price">&#8377;450</p>
+                            <button type="button" class="btn btn-primary">Book Ticket</button>
+                        </div>
+                    </article>
+
+                    <!-- 2. Concert -->
+                    <article class="event-card">
+                        <div class="event-media">
+                            <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=800&q=80"
+                                 alt="Live music concert with stage lights" loading="lazy">
+                            <span class="badge badge-concert">Concert</span>
+                        </div>
+                        <div class="event-body">
+                            <h3 class="event-name">Arijit Singh Live in Concert</h3>
+                            <p class="event-meta"><span class="label">Date:</span> 18 Nov 2026</p>
+                            <p class="event-meta"><span class="label">Location:</span> JLN Stadium, Delhi</p>
+                            <p class="event-price">&#8377;2,500</p>
+                            <button type="button" class="btn btn-primary">Book Ticket</button>
+                        </div>
+                    </article>
+
+                    <!-- 3. Sports -->
+                    <article class="event-card">
+                        <div class="event-media">
+                            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80"
+                                 alt="Cricket stadium under floodlights" loading="lazy">
+                            <span class="badge badge-sports">Sports</span>
+                        </div>
+                        <div class="event-body">
+                            <h3 class="event-name">India vs Australia &ndash; T20</h3>
+                            <p class="event-meta"><span class="label">Date:</span> 25 Nov 2026</p>
+                            <p class="event-meta"><span class="label">Location:</span> Chinnaswamy Stadium, Bengaluru</p>
+                            <p class="event-price">&#8377;1,800</p>
+                            <button type="button" class="btn btn-primary">Book Ticket</button>
+                        </div>
+                    </article>
+
+                    <!-- 4. Comedy -->
+                    <article class="event-card">
+                        <div class="event-media">
+                            <img src="https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&w=800&q=80"
+                                 alt="Audience laughing at a stand-up comedy show" loading="lazy">
+                            <span class="badge badge-comedy">Comedy</span>
+                        </div>
+                        <div class="event-body">
+                            <h3 class="event-name">Stand-Up Night: Open Mic</h3>
+                            <p class="event-meta"><span class="label">Date:</span> 30 Nov 2026</p>
+                            <p class="event-meta"><span class="label">Location:</span> The Laugh Club, Mumbai</p>
+                            <p class="event-price">&#8377;600</p>
+                            <button type="button" class="btn btn-primary">Book Ticket</button>
+                        </div>
+                    </article>
+
+                    <!-- 5. Tech / Conference -->
+                    <article class="event-card">
+                        <div class="event-media">
+                            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80"
+                                 alt="Speaker presenting at a tech conference" loading="lazy">
+                            <span class="badge badge-conference">Conference</span>
+                        </div>
+                        <div class="event-body">
+                            <h3 class="event-name">FutureStack Developer Summit</h3>
+                            <p class="event-meta"><span class="label">Date:</span> 05 Dec 2026</p>
+                            <p class="event-meta"><span class="label">Location:</span> HICC, Hyderabad</p>
+                            <p class="event-price">&#8377;3,200</p>
+                            <button type="button" class="btn btn-primary">Book Ticket</button>
+                        </div>
+                    </article>
+
+                    <!-- 6. Sports (football) -->
+                    <article class="event-card">
+                        <div class="event-media">
+                            <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80"
+                                 alt="Football on the pitch during a match" loading="lazy">
+                            <span class="badge badge-sports">Sports</span>
+                        </div>
+                        <div class="event-body">
+                            <h3 class="event-name">ISL Finals: City Derby</h3>
+                            <p class="event-meta"><span class="label">Date:</span> 09 Dec 2026</p>
+                            <p class="event-meta"><span class="label">Location:</span> Salt Lake Stadium, Kolkata</p>
+                            <p class="event-price">&#8377;990</p>
+                            <button type="button" class="btn btn-primary">Book Ticket</button>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EVENT DETAILS ============ -->
+        <section id="booking" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Event Details</h2>
+
+                <div class="details-grid">
+
+                    <article class="details-box">
+                        <h3>Interstellar: IMAX Re-Release</h3>
+                        <p><span class="label">Venue:</span> PVR Orion Mall, Bengaluru</p>
+                        <p><span class="label">Time:</span> 7:30 PM</p>
+                        <p><span class="label">Duration:</span> 2h 49m</p>
+                        <p><span class="label">Ticket Price:</span> &#8377;450</p>
+                    </article>
+
+                    <article class="details-box">
+                        <h3>Arijit Singh Live in Concert</h3>
+                        <p><span class="label">Venue:</span> JLN Stadium, Delhi</p>
+                        <p><span class="label">Time:</span> 6:00 PM</p>
+                        <p><span class="label">Duration:</span> 3h 00m</p>
+                        <p><span class="label">Ticket Price:</span> &#8377;2,500</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer id="contact" class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <h2>Eventora</h2>
+                <p>Your gateway to unforgettable experiences.</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:info@sysslan.com">info@sysslan.com</a></p>
+                <p>Website: <a href="https://www.sysslan.com" target="_blank" rel="noopener">www.sysslan.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/company/sysslan-it-solutions" target="_blank" rel="noopener">Sysslan IT Solutions</a></p>
+                <p>Address: Arni Road, Wadgaon, Yavatmal, India</p>
+                <p>Phone: <a href="tel:+918217560439">+91 82175 60439</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Eventora. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
